@@ -4,7 +4,7 @@ import 'controllers/portfolio_controller.dart';
 import 'views/portfolio_view.dart';
 
 void main() {
-  // Inject controller globally before app launch
+
   Get.put(PortfolioController());
   runApp(const MyApp());
 }

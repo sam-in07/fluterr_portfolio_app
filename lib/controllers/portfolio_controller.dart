@@ -21,13 +21,13 @@ class PortfolioController extends GetxController {
   var isProfileHovered = false.obs;
   var isSkillActive = false.obs;
 
-  // FIXED: Moved inside the class scope so controller can access them
+
   final String linkedinUrl = 'https://www.linkedin.com/in/samin-ahmed-chowdhury-052b07231/';
   final String githubProfileUrl = 'https://github.com/sam-in07';
   final String youtubeUrl = 'https://www.youtube.com/@sam__in07152';
   final String emailAddress = 'mailto:chainsamin@gmail.com';
 
-  // Repositories mapped with accurate application context details
+
   final List<Project> projects = [
     Project(
       title: 'Bangla Bulletin',
